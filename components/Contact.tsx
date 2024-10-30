@@ -137,12 +137,38 @@ export default function Contact() {
 
           <div className="mt-12 text-center">
             <p className="text-gray-600 mb-4">
-              Email: shakya.sarthak002@gmail.com
+              Email: {" "}
+              <a 
+                href="mailto:shakya.sarthak002@gmail.com" 
+                className="
+                  text-primary
+                  transition-all 
+                  duration-300 
+                  hover:text-primary/80
+                  border-b-2 
+                  border-primary/30 
+                  hover:border-primary
+                  pb-0.5
+                "
+              >
+                shakya.sarthak002@gmail.com
+              </a>
             </p>
             <p className="text-gray-600 mb-4">
               Available for Summer 2024 internships
             </p>
-            <Button variant="outline">Download Resume</Button>
+            <Button 
+                variant="outline" 
+                onClick={() => {
+                    window.open('/Sarthak_Shakya_Resume.pdf', '_blank')
+                }}
+                // Alternatively, you can use an anchor tag approach:
+                asChild
+            >
+                <a href="/Sarthak_Shakya_Resume.pdf" download>
+                    Download Resume
+                </a>
+            </Button>
           </div>
         </div>
       </div>

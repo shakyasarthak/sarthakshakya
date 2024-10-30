@@ -27,8 +27,31 @@ export default function Hero() {
             Currently seeking internship opportunities.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center px-4">
-            <Button size="lg" className="w-full sm:w-auto">View Projects</Button>
-            <Button variant="outline" size="lg" className="w-full sm:w-auto">Contact Me</Button>
+            <Button 
+              size="lg" 
+              className="w-full sm:w-auto"
+              onClick={() => {
+                document.getElementById('projects')?.scrollIntoView({ 
+                  behavior: 'smooth',
+                  block: 'start'
+                });
+              }}
+            >
+              View Projects
+            </Button>
+            <Button 
+              variant="outline" 
+              size="lg" 
+              className="w-full sm:w-auto"
+              onClick={() => {
+                document.getElementById('contact')?.scrollIntoView({ 
+                  behavior: 'smooth',
+                  block: 'start'
+                });
+              }}
+            >
+              Contact Me
+            </Button>
           </div>
         </motion.div>
       </div>
