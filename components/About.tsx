@@ -25,7 +25,6 @@ export default function About() {
               My academic journey has equipped me with strong analytical skills and a deep understanding of 
               statistical methods. I'm eager to apply these skills in a real-world setting through an internship 
               opportunity.
-              THIS IS A TEST LINEEEEEEE
             </p>
             {/* <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
               {stats.map((stat, index) => (
