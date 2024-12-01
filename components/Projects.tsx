@@ -27,14 +27,14 @@ const projects = [
   },
   {
     icon: <Database className="w-6 h-6" />,
-    title: "Customer Segmentation Analysis",
-    description: "Applied K-means clustering to segment customers based on purchasing behavior. Created comprehensive dashboard using Tableau for visualization. Provided actionable insights for marketing strategies.",
+    title: "Customers Segmentation Analysis",
+    description: "Applied K-means clustering to segment customers based on purchasing behaviors. Created comprehensive dashboard using Tableau for visualization. Provided actionable insights for marketing strategies.",
     tools: ["Python", "Tableau", "SQL", "Excel"],
     github: "https://github.com/shakyasarthak/customer-segmentation"
   },
   {
     icon: <Brain className="w-6 h-6" />,
-    title: "Stock Market Analysis",
+    title: "Nepal Stock Market Analysis",
     description: "Conducted time series analysis on historical stock data using Python. Implemented ARIMA and LSTM models for price prediction. Created interactive visualizations using Plotly.",
     tools: ["Python", "TensorFlow", "Plotly", "Pandas"],
     github: "https://github.com/shakyasarthak/stock-analysis"
